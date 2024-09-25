@@ -1,0 +1,27 @@
+{
+  "time": "18:22:50",
+  "source": "Http�ص�",
+  "type": "�յ�˽����Ϣ",
+  "content": {
+    "data": {
+      "fromNickName": "",
+      "fromType": "private",
+      "fromWxId": "wxid_es7stpo47c5n21",
+      "instanceId": "37c2e4f016d8404190b4701fdcccf1d4",
+      "message": "<msg>\r\n\t<appmsg appid=\"wx5aa333606550dfd5\" sdkver=\"0\">\r\n\t\t<title>����</title>\r\n\t\t<des>�ܽ���</des>\r\n\t\t<type>3</type>\r\n\t\t<url>https://i.y.qq.com/v8/playsong.html?hosteuin=oKCz7enioeCAoc**&amp;sharefrom=&amp;from_id=0&amp;from_idtype=0&amp;from_name=&amp;songid=449205&amp;songmid=&amp;type=0&amp;platform=(10rpl)&amp;appsongtype=(11rpl)&amp;_wv=1&amp;source=qq&amp;appshare=iphone&amp;media_mid=0020wJDo3cx0j3&amp;ADTAG=wxfshare</url>\r\n\t\t<dataurl>http://c6.y.qq.com/rsc/fcgi-bin/fcg_pyq_play.fcg?songid=0&amp;songmid=003aAYrm3GE0Ac&amp;songtype=1&amp;fromtag=46&amp;uin=1604030622&amp;code=0d2ab</dataurl>\r\n\t\t<songalbumurl>http://wxapp.tc.qq.com/202/20304/stodownload?filekey=30350201010421301f020200ca04025348041017a8147a27a15ef10daf6d00df229a2a0203036636040d00000004627466730000000132&amp;hy=SH&amp;storeid=266f3e47c0002fb057282ce53000000ca00004f5053480768cbc1e67f47c98&amp;bizid=1023</songalbumurl>\r\n\t\t<songlyric>[00:00.03]���ǵ���˵����Ψһ�ĳǱ�\r\n[00:03.72]���ŵ��������������\r\n[00:06.73]΢΢Ц Сʱ�������֪��\r\n[00:11.74]��Ҫ����ө������������\r\n[00:15.49]���ĸ�ҥ��Զ������\r\n[00:18.42]�ؼҰ� �ص����������</songlyric>\r\n\t\t<appattach>\r\n\t\t\t<cdnthumburl>3057020100044b304902010002047282ce5302032f4f550204b7de512a020466f3e47c042465336231323966352d306434322d343066362d383365342d6436323230316661306661630204051408030201000405004c53d900</cdnthumburl>\r\n\t\t\t<cdnthumbmd5>d6f0237de0a9fd447d59d88990556d29</cdnthumbmd5>\r\n\t\t\t<cdnthumblength>9240</cdnthumblength>\r\n\t\t\t<cdnthumbwidth>150</cdnthumbwidth>\r\n\t\t\t<cdnthumbheight>150</cdnthumbheight>\r\n\t\t\t<cdnthumbaeskey>30baab2d35e0b1e48bb05c33e6248766</cdnthumbaeskey>\r\n\t\t\t<aeskey>30baab2d35e0b1e48bb05c33e6248766</aeskey>\r\n\t\t\t<encryver>0</encryver>\r\n\t\t\t<filekey>wxid_rqrhu6t01sqz12_4944_1727259772</filekey>\r\n\t\t</appattach>\r\n\t\t<md5>d6f0237de0a9fd447d59d88990556d29</md5>\r\n\t\t<statextstr>GhQKEnd4NWFhMzMzNjA2NTUwZGZkNQ==</statextstr>\r\n\t\t<musicShareItem>\r\n\t\t\t<mid>getlinkclisdkmid_003aAYrm3GE0Ac</mid>\r\n\t\t\t<mvSingerName>�ܽ���</mvSingerName>\r\n\t\t\t<mvAlbumName>ħ����</mvAlbumName>\r\n\t\t\t<musicDuration>223000</musicDuration>\r\n\t\t</musicShareItem>\r\n\t</appmsg>\r\n\t<fromusername>wxid_es7stpo47c5n21</fromusername>\r\n\t<scene>0</scene>\r\n\t<appinfo>\r\n\t\t<version>53</version>\r\n\t\t<appname>QQ����</appname>\r\n\t</appinfo>\r\n\t<commenturl />\r\n</msg>\r\n",
+      "messageId": "4296569853579536921",
+      "messageSource": 0,
+      "messageType": 49,
+      "robotId": "wxid_rqrhu6t01sqz12",
+      "timeStamp": 1727259770124,
+      "wxId": "wxid_rqrhu6t01sqz12"
+    },
+    "description": "˽����Ϣ�¼�",
+    "event": "10002",
+    "time": 1727259770126
+  },
+  "result": "HttpCode: 200 body: rtn ok",
+  "status": "�ɹ�",
+  "delay": "477/ms",
+  "messageId": "4296569853579536921"
+}

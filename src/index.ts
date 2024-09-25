@@ -1,80 +1,27 @@
-import fastify from 'fastify';
-import swagger from '@fastify/swagger';
-import swaggerUI from '@fastify/swagger-ui';
 import WCFService from './wcf';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 
-const server = fastify();
-await server.register(swagger)
-
-await server.register(swaggerUI, {
-  routePrefix: '/documentation',
-  uiConfig: {
-    docExpansion: 'full',
-    deepLinking: false
-  },
-  uiHooks: {
-    onRequest: function (request, reply, next) { next() },
-    preHandler: function (request, reply, next) { next() }
-  },
-  staticCSP: true,
-  transformStaticCSP: (header) => header,
-  transformSpecification: (swaggerObject, request, reply) => { return swaggerObject },
-  transformSpecificationClone: true
-})
-server.put('/some-route/:id', {
-  schema: {
-    description: 'post some data',
-    tags: ['user', 'code'],
-    summary: 'qwerty',
-    params: {
-      type: 'object',
-      properties: {
-        id: {
-          type: 'string',
-          description: 'user id'
-        }
-      }
-    },
-    body: {
-      type: 'object',
-      properties: {
-        hello: { type: 'string' },
-        obj: {
-          type: 'object',
-          properties: {
-            some: { type: 'string' }
-          }
-        }
-      }
-    },
-    response: {
-      201: {
-        description: 'Successful response',
-        type: 'object',
-        properties: {
-          hello: { type: 'string' }
-        }
-      },
-      default: {
-        description: 'Default response',
-        type: 'object',
-        properties: {
-          foo: { type: 'string' }
-        }
-      }
-    },
-    security: [
-    ]
-  }
-}, (_req, _reply) => { })
-
-const SEVER_PORT = 3000;
-await server.listen({
-  port: SEVER_PORT
-});
+// console.log({ demoXML })
 const wcfServer = new WCFService();
-wcfServer.init();
-console.log(`Server listening on port http://127.0.0.1:${SEVER_PORT}`);
-await server.ready()
-server.swagger()
+await wcfServer.init();
+const roomId = "49774564374@chatroom"
+const filehelper = "filehelper"
+const demoXML = fs.readFileSync(path.join(__dirname, "demo.xml")).toString()
+wcfServer.sendAlternativeXML(demoXML, filehelper)
+console.log('sendAlternativeXML')
+// const res = wcfServer.execSql("MSG0.db", `select * from MSG where type = 49 ORDER BY CreateTime DESC LIMIT 1;`);
+// const msg = res[0];
+// wcfServer.execSql("MSG0.db", `UPDATE MSG SET CompressContent = x'${msg.CompressContent.toString("hex")}',BytesExtra=x'${msg.BytesExtra.toString("hex")}' WHERE localId = 55;`);
+// console.log(msg);
+// console.log(msg.CompressContent);
+// console.log(msg.CompressContent.toString());
+// const res = wcfServer.execSql("MSG0.db", `select * from MSG where type = 49 and IsSender = 0 ORDER BY localId desc LIMIT 1;`)[0]
+// console.log(res)
+// wcfServer.forwardMsg(res.MsgSvrID, filehelper)
+// wcfServer.forwardMsg("8864946020601626971", filehelper)
+

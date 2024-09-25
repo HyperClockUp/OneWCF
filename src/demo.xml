@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<msg>
+        <appmsg appid="wx5aa333606550dfd5" sdkver="0">
+                <title>桥边姑娘</title>
+                <des>桥边姑娘</des>
+                <username />
+                <action>view</action>
+                <type>3</type>
+                <showtype>0</showtype>
+                <content />
+                <url>http://c.y.qq.com/v8/playsong.html?songmid=001zLvbN1NYMuv&amp;songid=244625442</url>
+                <lowurl />
+                <forwardflag>0</forwardflag>
+                <dataurl>http://isure6.stream.qqmusic.qq.com/RS02062RobY11aTYpU.mp3?guid=2000000131&amp;vkey=789EA3BA261F1D50D1D7172EDF8DEE32FB960DB068F4DEAAA31FB4836E346504B7FF96DA6F512C3BB43BBF41D217B57B6316CBB52FBE1677&amp;uin=0&amp;fromtag=99010131&amp;trace=7f776d6013e4c64d</dataurl>
+                <lowdataurl />
+                <contentattr>0</contentattr>
+                <streamvideo>
+                        <streamvideourl />
+                        <streamvideototaltime>0</streamvideototaltime>
+                        <streamvideotitle />
+                        <streamvideowording />
+                        <streamvideoweburl />
+                        <streamvideothumburl />
+                        <streamvideoaduxinfo />
+                        <streamvideopublishid />
+                </streamvideo>
+                <canvasPageItem>
+                        <canvasPageXml><![CDATA[]]></canvasPageXml>
+                </canvasPageItem>
+                <appattach>
+                        <attachid />
+                        <cdnthumburl>3057020100044b30490201000204a2ad1a6802032f4f560204667ac2dc020466f3fcfb042434343562333166332d356230342d343738362d383431352d3063333737623562663638320204051408030201000405004c4c6e00</cdnthumburl>
+                        <cdnthumbmd5>9be6162ec43261e7e864e6aef49774c9</cdnthumbmd5>
+                        <cdnthumblength>27597</cdnthumblength>
+                        <cdnthumbheight>120</cdnthumbheight>
+                        <cdnthumbwidth>120</cdnthumbwidth>
+                        <cdnthumbaeskey>f8d9561f8855b4b721a28d1c14c3cac2</cdnthumbaeskey>
+                        <aeskey>f8d9561f8855b4b721a28d1c14c3cac2</aeskey>
+                        <encryver>1</encryver>
+                        <fileext>jpg</fileext>
+                        <islargefilemsg>0</islargefilemsg>
+                </appattach>
+                <extinfo />
+                <androidsource>3</androidsource>
+                <thumburl />
+                <mediatagname />
+                <messageaction><![CDATA[]]></messageaction>
+                <messageext><![CDATA[]]></messageext>
+                <emoticongift>
+                        <packageflag>0</packageflag>
+                        <packageid />
+                </emoticongift>
+                <emoticonshared>
+                        <packageflag>0</packageflag>
+                        <packageid />
+                </emoticonshared>
+                <designershared>
+                        <designeruin>0</designeruin>
+                        <designername>null</designername>
+                        <designerrediretcturl><![CDATA[null]]></designerrediretcturl>
+                </designershared>
+                <emotionpageshared>
+                        <tid>0</tid>
+                        <title>null</title>
+                        <desc>null</desc>
+                        <iconUrl><![CDATA[null]]></iconUrl>
+                        <secondUrl />
+                        <pageType>0</pageType>
+                        <setKey>null</setKey>
+                </emotionpageshared>
+                <webviewshared>
+                        <shareUrlOriginal />
+                        <shareUrlOpen />
+                        <jsAppId />
+                        <publisherId />
+                        <publisherReqId>0</publisherReqId>
+                </webviewshared>
+                <template_id />
+                <md5>9be6162ec43261e7e864e6aef49774c9</md5>
+                <websearch />
+                <weappinfo>
+                        <username />
+                        <appid />
+                        <appservicetype>0</appservicetype>
+                        <secflagforsinglepagemode>0</secflagforsinglepagemode>
+                        <videopageinfo>
+                                <thumbwidth>120</thumbwidth>
+                                <thumbheight>120</thumbheight>
+                                <fromopensdk>0</fromopensdk>
+                        </videopageinfo>
+                </weappinfo>
+                <statextstr>GhQKEnd4NWFhMzMzNjA2NTUwZGZkNQ==</statextstr>
+                <songalbumurl>http://wxapp.tc.qq.com/202/20304/stodownload?filekey=30350201010421301f020200ca040253480410219e978303f2094aed0fb0aeeed7cd060203013b47040d00000004627466730000000132&amp;hy=SH&amp;storeid=266f3c0fc000c5e371bd74928000000ca00004f5053481e561b01e6825ff71&amp;bizid=1023</songalbumurl>
+                <musicShareItem>
+                        <musicDuration>0</musicDuration>
+                </musicShareItem>
+                <finderLiveProductShare>
+                        <finderLiveID><![CDATA[]]></finderLiveID>
+                        <finderUsername><![CDATA[]]></finderUsername>
+                        <finderObjectID><![CDATA[]]></finderObjectID>
+                        <finderNonceID><![CDATA[]]></finderNonceID>
+                        <liveStatus><![CDATA[]]></liveStatus>
+                        <appId><![CDATA[]]></appId>
+                        <pagePath><![CDATA[]]></pagePath>
+                        <productId><![CDATA[]]></productId>
+                        <coverUrl><![CDATA[]]></coverUrl>
+                        <productTitle><![CDATA[]]></productTitle>
+                        <marketPrice><![CDATA[0]]></marketPrice>
+                        <sellingPrice><![CDATA[0]]></sellingPrice>
+                        <platformHeadImg><![CDATA[]]></platformHeadImg>
+                        <platformName><![CDATA[]]></platformName>
+                        <shopWindowId><![CDATA[]]></shopWindowId>
+                        <flashSalePrice><![CDATA[0]]></flashSalePrice>
+                        <flashSaleEndTime><![CDATA[0]]></flashSaleEndTime>
+                        <ecSource><![CDATA[]]></ecSource>
+                        <sellingPriceWording><![CDATA[]]></sellingPriceWording>
+                        <platformIconURL><![CDATA[]]></platformIconURL>
+                        <firstProductTagURL><![CDATA[]]></firstProductTagURL>
+                        <firstProductTagAspectRatioString><![CDATA[0.0]]></firstProductTagAspectRatioString>
+                        <secondProductTagURL><![CDATA[]]></secondProductTagURL>
+                        <secondProductTagAspectRatioString><![CDATA[0.0]]></secondProductTagAspectRatioString>
+                        <firstGuaranteeWording><![CDATA[]]></firstGuaranteeWording>
+                        <secondGuaranteeWording><![CDATA[]]></secondGuaranteeWording>
+                        <thirdGuaranteeWording><![CDATA[]]></thirdGuaranteeWording>
+                        <isPriceBeginShow>false</isPriceBeginShow>
+                        <lastGMsgID><![CDATA[]]></lastGMsgID>
+                        <promoterKey><![CDATA[]]></promoterKey>
+                        <discountWording><![CDATA[]]></discountWording>
+                        <priceSuffixDescription><![CDATA[]]></priceSuffixDescription>
+                        <productCardKey><![CDATA[]]></productCardKey>
+                        <showBoxItemStringList />
+                </finderLiveProductShare>
+                <finderOrder>
+                        <appID><![CDATA[]]></appID>
+                        <orderID><![CDATA[]]></orderID>
+                        <path><![CDATA[]]></path>
+                        <priceWording><![CDATA[]]></priceWording>
+                        <stateWording><![CDATA[]]></stateWording>
+                        <productImageURL><![CDATA[]]></productImageURL>
+                        <products><![CDATA[]]></products>
+                        <productsCount><![CDATA[0]]></productsCount>
+                </finderOrder>
+                <finderShopWindowShare>
+                        <finderUsername><![CDATA[]]></finderUsername>
+                        <avatar><![CDATA[]]></avatar>
+                        <nickname><![CDATA[]]></nickname>
+                        <commodityInStockCount><![CDATA[]]></commodityInStockCount>
+                        <appId><![CDATA[]]></appId>
+                        <path><![CDATA[]]></path>
+                        <appUsername><![CDATA[]]></appUsername>
+                        <query><![CDATA[]]></query>
+                        <liteAppId><![CDATA[]]></liteAppId>
+                        <liteAppPath><![CDATA[]]></liteAppPath>
+                        <liteAppQuery><![CDATA[]]></liteAppQuery>
+                        <platformTagURL><![CDATA[]]></platformTagURL>
+                        <saleWording><![CDATA[]]></saleWording>
+                        <lastGMsgID><![CDATA[]]></lastGMsgID>
+                        <profileTypeWording><![CDATA[]]></profileTypeWording>
+                        <saleWordingExtra><![CDATA[]]></saleWordingExtra>
+                        <reputationInfo>
+                                <hasReputationInfo>0</hasReputationInfo>
+                                <reputationScore>0</reputationScore>
+                                <reputationWording />
+                                <reputationTextColor />
+                                <reputationLevelWording />
+                                <reputationBackgroundColor />
+                        </reputationInfo>
+                        <productImageURLList />
+                </finderShopWindowShare>
+                <findernamecard>
+                        <username />
+                        <avatar><![CDATA[]]></avatar>
+                        <nickname />
+                        <auth_job />
+                        <auth_icon>0</auth_icon>
+                        <auth_icon_url />
+                        <ecSource><![CDATA[]]></ecSource>
+                        <lastGMsgID><![CDATA[]]></lastGMsgID>
+                </findernamecard>
+                <finderGuarantee>
+                        <scene><![CDATA[0]]></scene>
+                </finderGuarantee>
+                <directshare>0</directshare>
+                <gamecenter>
+                        <namecard>
+                                <iconUrl />
+                                <name />
+                                <desc />
+                                <tail />
+                                <jumpUrl />
+                        </namecard>
+                </gamecenter>
+                <patMsg>
+                        <chatUser />
+                        <records>
+                                <recordNum>0</recordNum>
+                        </records>
+                </patMsg>
+                <secretmsg>
+                        <issecretmsg>0</issecretmsg>
+                </secretmsg>
+                <referfromscene>0</referfromscene>
+                <gameshare>
+                        <liteappext>
+                                <liteappbizdata />
+                                <priority>0</priority>
+                        </liteappext>
+                        <appbrandext>
+                                <litegameinfo />
+                                <priority>-1</priority>
+                        </appbrandext>
+                        <gameshareid />
+                        <sharedata />
+                        <isvideo>0</isvideo>
+                        <duration>0</duration>
+                        <isexposed>0</isexposed>
+                        <readtext />
+                </gameshare>
+                <mpsharetrace>
+                        <hasfinderelement>0</hasfinderelement>
+                        <lastgmsgid />
+                </mpsharetrace>
+                <wxgamecard>
+                        <framesetname />
+                        <mbcarddata />
+                        <minpkgversion />
+                        <clientextinfo />
+                        <mbcardheight>0</mbcardheight>
+                        <isoldversion>0</isoldversion>
+                </wxgamecard>
+                <liteapp>
+                        <id>null</id>
+                        <path />
+                        <query />
+                </liteapp>
+        </appmsg>
+        <fromusername>n924093945b</fromusername>
+        <scene>0</scene>
+        <appinfo>
+                <version>53</version>
+                <appname>QQ音乐</appname>
+        </appinfo>
+        <commenturl />
+</msg>
