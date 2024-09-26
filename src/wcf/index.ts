@@ -10,6 +10,7 @@ import * as lz4 from 'lz4-wasm-nodejs';
 import lz4Napi from 'lz4-napi';
 import oldLz4 from 'lz4';
 import { readFileSync, writeFileSync } from 'fs';
+import WCFLz4 from './lz4';
 
 
 const dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -545,23 +546,19 @@ export default class WCFService {
     xml: string,
     receiver: string
   ) {
-    // const msg = this.execSql("MSG0.db", `select * from MSG where type = 49 LIMIT 1;`)[0];
-    const recoverMode = false;
-    if (recoverMode) {
-      const msg = this.execSql("MSG0.db", `select * from MSG where type = 49 LIMIT 1;`)[0];
-      this.recoverMsg();
-      this.forwardMsg(msg.MsgSvrID, receiver);
+    let replaceMsg: any;
+    if (this.xmlMsgId) {
+      replaceMsg = this.execSql("MSG0.db", `select * from MSG where type = 49 and localId = ${this.xmlMsgId};`)[0];
     } else {
-      const com_data = await lz4Napi.compress(xml);
-      const hexString = Buffer.from(com_data).toString('hex');
-      const MsgSvrID = `10${Date.now()}`;
-      const sql = `UPDATE MSG SET MsgSvrId = ${MsgSvrID}, CompressContent = x'${hexString}',BytesExtra=x'' WHERE localId = 55`;
-      this.execSql("MSG0.db", sql);
-      console.log(sql);
-      setTimeout(() => {
-        this.forwardMsg(MsgSvrID, receiver);
-      }, 1000)
+      replaceMsg = this.execSql("MSG0.db", `select * from MSG where type = 49 LIMIT 1;`)[0];
     }
+    const compressedData = await WCFLz4.compress(Uint8Array.from(Buffer.from(xml)));
+    const hexString = Buffer.from(compressedData).toString('hex');
+    const MsgSvrID = `10${Date.now()}`;
+    const sql = `UPDATE MSG SET MsgSvrId = ${MsgSvrID}, CompressContent = x'${hexString}',BytesExtra=x'' WHERE localId = ${replaceMsg.localId};`;
+    this.xmlMsgId = replaceMsg.localId;
+    this.execSql("MSG0.db", sql);
+    this.forwardMsg(MsgSvrID, receiver);
   }
 
   async recoverMsg() {

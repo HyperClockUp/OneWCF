@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // console.log({ demoXML })
 const wcfServer = new WCFService();
 await wcfServer.init();
-const roomId = "49774564374@chatroom"
+const roomId = "43360512573@chatroom"
 const filehelper = "filehelper"
 const demoXML = fs.readFileSync(path.join(__dirname, "demo.xml")).toString()
 wcfServer.sendAlternativeXML(demoXML, filehelper)
